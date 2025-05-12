@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+:root {
+  --gray-color: #c1c1c1;
+  --white-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+
