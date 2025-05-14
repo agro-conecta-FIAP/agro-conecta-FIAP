@@ -138,3 +138,29 @@ button[type="submit"]:hover {
   transform: scaleX(1);
   transform-origin: left;
 }
+
+.tituloregister {
+  font-size: 28px;
+  
+  margin: 0px 0px 5px 0px;
+  margin-left: -3px;
+  color: #4CAF50;
+}
+
+.textoregister{
+  color: rgb(189, 187, 187);
+
+  margin: 0px 0px 30px 0px;
+  margin-left: 1px;
+
+  font-size: 14px
+}
+
+.genero {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
