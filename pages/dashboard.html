@@ -12,10 +12,15 @@
   <header class="dashboard-header">
     <div class="container-header">
       <a href="/pages/dashboard.html" class="logo">AgroConecta</a>
-      <button class="user-area" id="user-area" >
-        <span>Olá, Edson</span>
-        <img src="../public/images/circle-user.png" alt="User">
-      </button>
+      <div class="menu-user">
+        <button class="user-area" id="user-area" >
+          <span>Olá, Edson</span>
+          <img src="../public/images/circle-user.png" alt="User">
+        </button>
+        <button class="logout-button">
+          <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+      </div>
     </div>
   </header>
   <main class="dashboard-main">
@@ -57,5 +62,6 @@
 
 
   <script src="../interaction/route-controller/dashboard.js"></script>
+  <script src="../interaction/route-controller/logout.js"></script>
 </body>
 </html>

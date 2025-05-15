@@ -13,15 +13,21 @@
     <header class="dashboard-header">
       <div class="container-header">
         <a href="/pages/dashboard.html" class="logo">AgroConecta</a>
+        <div class="menu-user">
         <button disabled="disabled" class="user-area" id="user-area" >
           <img src="../public/images/circle-user.png" alt="User">
+          <span>Olá, Edson</span>
         </button>
+        <button class="logout-button">
+          <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+      </div>
       </div>
     </header>
     <main class="social-page-main">
       <aside class="social-page-cards">
         <h2 class="social-page-cards-title">Olá, Edson</h2>
-        
+
         <button disabled="disabled" class="new-post-button desactive">
           <i class="fas fa-plus"></i> Nova Publicação
         </button>
@@ -92,5 +98,6 @@
       </section>
     </main>
   </div>
+  <script src="../interaction/route-controller/logout.js"></script>
 </body>
 </html>

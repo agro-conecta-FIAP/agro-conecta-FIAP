@@ -148,6 +148,19 @@ body {
   margin-top: 2rem;
 }
 
+.menu-user {
+  display: flex;
+  gap: 1rem;
+}
+
+.logout-button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
 
 .social-page-section {
   margin-left: 300px;
