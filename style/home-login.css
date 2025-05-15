@@ -183,6 +183,11 @@ button[type="submit"]:hover {
   gap: 1rem;
 }
 
+.desactive {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .textoregister{
   color: rgb(63, 84, 70);
   margin: 0px 0px 30px 0px;

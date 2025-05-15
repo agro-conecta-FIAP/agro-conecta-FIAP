@@ -16,6 +16,11 @@ body {
   gap: 10px;	
 }
 
+.desactive {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .container-header {
   width: 1200px;
   margin: 0 auto;

@@ -5,9 +5,14 @@
 }
 
 body {
-  font-family: 'Nunito', Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   min-width: 100vw;
   min-height: 100vh;
+}
+
+.desactive {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 :root {
