@@ -185,7 +185,8 @@ button[type="submit"]:hover {
 
 .desactive {
   opacity: 0.5;
-  cursor: not-allowed;
+  cursor: not-allowed !important;
+  pointer-events: none;
 }
 
 .textoregister{

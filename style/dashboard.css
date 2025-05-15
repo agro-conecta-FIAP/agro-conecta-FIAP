@@ -12,9 +12,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .desactive {
   opacity: 0.5;
-  cursor: not-allowed;
+  cursor: not-allowed !important;
 }
 
 
@@ -94,10 +95,9 @@ body {
   flex-direction: column;
   background: #fff;
   border-radius: 10px;
-  gap: 20px;
   justify-content: space-between;
   align-items: center;
-  height: 320px;
+  height: 350px;
   width: 250px;
   padding: 2rem;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);

@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Social Page</title>
   <link rel="stylesheet" href="../style/social-page.css">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
   <div class="social-page-container">
     <header class="dashboard-header">
       <div class="container-header">
         <a href="/pages/dashboard.html" class="logo">AgroConecta</a>
-        <button class="user-area" id="user-area" >
+        <button disabled="disabled" class="user-area" id="user-area" >
           <img src="../public/images/circle-user.png" alt="User">
         </button>
       </div>
@@ -21,35 +21,25 @@
     <main class="social-page-main">
       <aside class="social-page-cards">
         <h2 class="social-page-cards-title">Olá, Edson</h2>
-        <nav class="social-page-cards-nav"> 
-          <span class="social-page-cards-nav-title">Menu</span>
-          <ul class="social-page-cards-nav-list">
-            <li>
-              <a href="/pages/dashboard.html">
-                Início
-              </a>
-            </li>
-              <li>
-                <a class="desactive" href="#">
-                  Marketplace de Alimentos
-                </a>
-              </li>
-              <li>
-                <a class="desactive" href="#">
-                  Cotação de Preços
-                </a>
-              </li>
-              <li>
-                <a class="desactive" href="#">
-                  Mão de Obra e Serviços
-                </a>
-              </li>
-              <li>
-                <a class="desactive" href="#">
-                  Troca de Conhecimentos
-                </a>
-          </ul>
-        </nav>
+        
+        <button disabled="disabled" class="new-post-button desactive">
+          <i class="fas fa-plus"></i> Nova Publicação
+        </button>
+        
+        <div class="filter-container">
+          <div class="filter-dropdown">
+            <button disabled="disabled" class="desactive filter-button">
+              Filtrar por categoria <i class="fas fa-chevron-down"></i>
+            </button>
+          </div>
+          
+          <div class="search-box">
+            <input type="text" placeholder="Buscar" class="desactive">
+            <button disabled="disabled" class="search-button">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
       </aside>
       <section class="social-page-section">
         <article class="social-page-section-article">

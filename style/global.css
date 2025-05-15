@@ -12,7 +12,17 @@ body {
 
 .desactive {
   opacity: 0.5;
-  cursor: not-allowed;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+
+a.desactive, 
+button.desactive,
+.desactive a,
+.desactive button {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+  pointer-events: none;
 }
 
 :root {
