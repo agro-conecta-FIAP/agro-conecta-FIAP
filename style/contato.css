@@ -22,6 +22,10 @@ body{
     height: 3rem;
   }
 
+  .container-header a {
+    text-decoration: none;    
+  }
+  
   .logo {
     font-size: 2.2rem;
     font-weight: 900;
@@ -58,37 +62,111 @@ body{
 
 #form-contato{
     background-color: #fff;
-    margin-left: 740px;
-    margin-right: 740px;
-    border-radius: 40px;
-    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    animation: fadeIn 0.5s ease-out;
 }
 
-  .card-info{
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card-info{
     background-color: #fff;
     text-align: center;
-    border-radius: 40px;
-    
-  }
-  .card-info input{
-    background-color: #DCDCDC;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.card-info input,
+.card-info textarea {
+    background-color: #f5f5f5;
     font-size: 1rem;
     border-radius: 9px;
-    width: 500px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 40px
-  }
-  #form-contato button{
+    width: 100%;
+    max-width: 500px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+    font-family: 'Nunito', Arial, sans-serif;
+}
+
+.card-info input {
+    height: 50px;
+}
+
+.card-info textarea {
+    padding: 15px;
+    resize: vertical;
+    min-height: 120px;
+}
+
+.card-info input::placeholder,
+.card-info textarea::placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+.card-info input:focus,
+.card-info textarea:focus {
+    outline: none;
+    border-color: #2E7D32;
+    box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.1);
+    background-color: #fff;
+    transform: translateY(-1px);
+}
+
+.card-info input:hover,
+.card-info textarea:hover {
+    border-color: #bdbdbd;
+}
+
+#form-contato button{
     display: block;
-    margin: 0 auto;
-    padding: 10px 100px;
+    margin: 20px auto 0;
+    padding: 14px 0;
+    width: 100%;
+    max-width: 300px;
     background-color: #2E7D32;
     color: white;
     border: none;
-    border-radius: 4px;
-    font-size: 1rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(46, 125, 50, 0.2);
+}
+
+#form-contato button:hover {
+    background-color: #1B5E20;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+}
+
+.titulo h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.titulo p {
+  font-size: 1.2rem;
+  color: #666;
+}
+

@@ -11,7 +11,7 @@
 <body>
   <header class="dashboard-header">
     <div class="container-header">
-      <div class="logo">AgroConecta</div>
+      <a href="/pages/dashboard.html" class="logo">AgroConecta</a>
       <button class="user-area" id="user-area" >
         <span>Olá, Edson</span>
         <img src="../public/images/circle-user.png" alt="User">
@@ -20,7 +20,7 @@
   </header>
   <main class="dashboard-main">
     <section class="dashboard-section">
-    <div class="dashboard-cards">
+    <div class="dashboard-cards"></div>
       <div class="dashboard-card">
         <img src="../public/images/cart-shopping.png" alt="Marketplace de Alimentos">
         <h2>Marketplace de Alimentos</h2>
@@ -44,19 +44,19 @@
         <h2>Troca de Conhecimentos</h2>
         <p>Compartilhe experiências com outros produtores</p>
         <button onclick="window.location.href='../pages/social-page.html'">Acessar</button>
-      </div>
     </div>
   </section>
   </main>
-  <!-- <footer class="dashboard-footer">
+  <footer class="dashboard-footer">
+    <div class="logo">AgroConecta</div>
     <nav>
-      <a href="#">Sobre</a>
-      <a href="#">Termos</a>
-      <a href="#">Contato</a>
+      <a href="#" class="dashboard-footer-link" id="sobre">Sobre</a>
+      <a href="#" class="dashboard-footer-link" id="termos">Termos</a>
+      <a href="#" class="dashboard-footer-link" id="contato">Contato</a>
     </nav>
-  </footer> -->
+  </footer>
 
 
-  <script src="../interaction/route-controller/home-page-social.js"></script>
+  <script src="../interaction/route-controller/dashboard.js"></script>
 </body>
 </html>

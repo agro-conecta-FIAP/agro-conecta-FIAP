@@ -14,10 +14,11 @@
 <body>
   <div class="container-login">
     <aside class="container-login-aside">
+      <h1>AgroConecta</h1>
+      <p>O AgroConecta aproxima quem produz, quem consome e quem transforma a agricultura em um futuro melhor.</p>
     </aside>
     <main class="container-login-main">
       <form id="form-login">
-        <h3>Entrar</h3>
         <div class="form-group">
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required>
@@ -46,13 +47,15 @@
           <input type="email" id="email" name="email" required>
         </div>
         
-        <div class="form-group">
-          <label for="password">Senha</label>
-          <input type="password" id="password" name="password" required>
-        </div>
-        <div class="form-group">
-          <label for="confpassword">Confirmar senha</label>
-          <input type="password" id="confpassword" name="confpassword" required>
+        <div class="form-group-password">
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <label for="confpassword">Confirmar senha</label>
+            <input type="password" id="confpassword" name="confpassword" required>
+          </div>
         </div>
         
         <div class="form-group">
@@ -78,7 +81,7 @@
         
         <!--Botão para enviar o cadastro-->
 
-        <button type="submit">Cadastrar</button>
+        <button class="button-register" type="submit">Cadastrar</button>
       </form>
       
       <!--Pergunta para alterar de aba-->
