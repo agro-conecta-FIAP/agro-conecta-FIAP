@@ -175,3 +175,40 @@ body {
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
+
+.video-youtube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-youtube p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.video-youtube a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 0.25rem;
+  position: relative;
+}
+
+.video-youtube a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #4caf50;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.video-youtube a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
