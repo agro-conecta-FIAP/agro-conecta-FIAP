@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agro Conecta</title>
+  <title>AgroConecta</title>
+  <link rel="shortcut icon" href="../public/images/logo.ico">
   <link rel="stylesheet" href="style/home-login.css">
   <link rel="stylesheet" href="style/global.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,24 +31,24 @@
         </div>
         <button type="submit">Entrar</button>
       </form>
-      
-      <!--Formulário do cadastro-->      
-      
-      <form id="form-register" >
+
+      <!--Formulário do cadastro-->
+
+      <form id="form-register">
         <h3 class="tituloregister">Crie uma conta:</h3>
         <p class="textoregister">É rápido e fácil!</p>
         <!--Itens para cadastro-->
-        
+
         <div class="form-group">
           <label for="fullname">Nome completo</label>
           <input type="text" id="fullname" name="fullname" required>
         </div>
-        
+
         <div class="form-group">
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required>
         </div>
-        
+
         <div class="form-group-password">
           <div class="form-group">
             <label for="password">Senha</label>
@@ -57,44 +59,41 @@
             <input type="password" id="confpassword" name="confpassword" required>
           </div>
         </div>
-        
+
         <div class="form-group">
           <label for="birthdate">Data de nascimento</label>
           <input type="date" id="birthdate" name="birthdate" required lang="pt-BR">
         </div>
-        
+
         <div class="form-group">
           <label for="genre">Gênero</label>
-           <select class="genero" name="genre" required>
+          <select class="genero" name="genre" required>
             <option value="" disabled selected>Selecione</option>
             <option value="masculino">Masculino</option>
             <option value="feminino">Feminino</option>
             <option value="outro">Outro</option>
-            <option value="não-informar">Prefiro não informar</option>  
-           </select>  
-          </div>
-        
-          <div class="form-group">
+            <option value="não-informar">Prefiro não informar</option>
+          </select>
+        </div>
+
+        <div class="form-group">
           <label for="pnumber">Celular</label>
           <input type="tel" id="pnumber" name="pnumber" required>
         </div>
-        
+
         <!--Botão para enviar o cadastro-->
 
         <button class="button-register" type="submit">Cadastrar</button>
       </form>
-      
+
       <!--Pergunta para alterar de aba-->
 
       <section class="container-register">
         <p id="toggle-text">Não tem uma conta? <a href="#" id="toggle-link">Cadastre-se</a></p>
       </section>
-      
-      
     </main>
   </div>
   <script src="interaction/route-controller/login.js"></script>
 </body>
+
 </html>
-
-

@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Social Page</title>
+  <title>AgroConecta | Troca de Conhecimentos</title>
+  <link rel="shortcut icon" href="../public/images/logo.ico">
   <link rel="stylesheet" href="../style/social-page.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
   <div class="social-page-container">
     <header class="dashboard-header">
       <div class="container-header">
         <a href="/pages/dashboard.html" class="logo">AgroConecta</a>
+        <nav>
+          <ul>
+            <li><a href="/pages/sobre.html" class="dashboard-footer-link desactive" id="sobre">Sobre</a></li>
+            <li><a href="/pages/termos.html" class="dashboard-footer-link desactive" id="termos">Termos</a></li>
+            <li><a href="/pages/contato.html" class="dashboard-footer-link" id="contato">Contato</a></li>
+          </ul>
+        </nav>
         <div class="menu-user">
-        <button disabled="disabled" class="user-area" id="user-area" >
-          <img src="../public/images/circle-user.png" alt="User">
-          <span>Olá, Edson</span>
-        </button>
-        <button class="logout-button">
-          <i class="fas fa-sign-out-alt"></i> Logout
-        </button>
-      </div>
+          <button class="logout-button">
+            <i class="fas fa-sign-out-alt"></i> Logout
+          </button>
+          <button class="user-area" id="user-area">
+            <span>Olá, Edson</span>
+            <img src="../public/images/circle-user.png" alt="User">
+          </button>
+        </div>
       </div>
     </header>
     <main class="social-page-main">
       <aside class="social-page-cards">
-        <h2 class="social-page-cards-title">Olá, Edson</h2>
 
         <button disabled="disabled" class="new-post-button desactive">
           <i class="fas fa-plus"></i> Nova Publicação
         </button>
-        
+
         <div class="filter-container">
           <div class="filter-dropdown">
             <button disabled="disabled" class="desactive filter-button">
               Filtrar por categoria <i class="fas fa-chevron-down"></i>
             </button>
           </div>
-          
+
           <div class="search-box">
             <input type="text" placeholder="Buscar" class="desactive">
             <button disabled="disabled" class="search-button">
@@ -100,4 +109,5 @@
   </div>
   <script src="../interaction/route-controller/logout.js"></script>
 </body>
+
 </html>

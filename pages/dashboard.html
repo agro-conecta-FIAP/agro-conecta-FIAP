@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agro Conecta</title>
+  <title>AgroConecta | Home</title>
+  <link rel="shortcut icon" href="../public/images/logo.ico">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../style/dashboard.css">
 </head>
+
 <body>
   <header class="dashboard-header">
     <div class="container-header">
       <a href="/pages/dashboard.html" class="logo">AgroConecta</a>
+      <nav>
+        <ul>
+          <li><a href="/pages/sobre.html" class="dashboard-footer-link desactive" id="sobre">Sobre</a></li>
+          <li><a href="/pages/termos.html" class="dashboard-footer-link desactive" id="termos">Termos</a></li>
+          <li><a href="/pages/contato.html" class="dashboard-footer-link" id="contato">Contato</a></li>
+        </ul>
+      </nav>
       <div class="menu-user">
-        <button class="user-area" id="user-area" >
-          <span>Olá, Edson</span>
-          <img src="../public/images/circle-user.png" alt="User">
-        </button>
         <button class="logout-button">
           <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+        <button class="user-area" id="user-area">
+          <span>Olá, Edson</span>
+          <img src="../public/images/circle-user.png" alt="User">
         </button>
       </div>
     </div>
   </header>
   <main class="dashboard-main">
     <section class="dashboard-section">
-    <div class="dashboard-cards"></div>
+      <div class="dashboard-cards"></div>
       <div class="dashboard-card">
         <img src="../public/images/cart-shopping.png" alt="Marketplace de Alimentos">
         <h2>Marketplace de Alimentos</h2>
@@ -49,19 +59,11 @@
         <h2>Troca de Conhecimentos</h2>
         <p>Compartilhe experiências com outros produtores</p>
         <button onclick="window.location.href='../pages/social-page.html'">Acessar</button>
-    </div>
-  </section>
+      </div>
+    </section>
   </main>
-  <footer class="dashboard-footer">
-    <nav>
-      <a href="/pages/sobre.html" class="dashboard-footer-link desactive" id="sobre">Sobre</a>
-      <a href="/pages/termos.html" class="dashboard-footer-link desactive" id="termos">Termos</a>
-      <a href="/pages/contato.html" class="dashboard-footer-link" id="contato">Contato</a>
-    </nav>
-  </footer>
-
-
   <script src="../interaction/route-controller/dashboard.js"></script>
   <script src="../interaction/route-controller/logout.js"></script>
 </body>
+
 </html>

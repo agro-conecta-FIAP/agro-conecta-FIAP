@@ -1,19 +1,14 @@
 body {
   margin: 0;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   color: #222;
-  /* background: #f5f5f5; */
-  background-image: url(../public/images/banner-dash.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #f7f8f8;
 }
 
 .social-page-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;	
+  gap: 10px;
 }
 
 .desactive {
@@ -36,7 +31,6 @@ body {
   background: #fff;
   padding: 1.2rem 2rem;
   height: 3rem;
-  background: #222;
   opacity: 0.97;
   position: fixed;
   top: 0;
@@ -45,10 +39,37 @@ body {
   z-index: 100;
 }
 
+.container-header a {
+  text-decoration: none;
+}
+
+.container-header nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container-header nav li {
+  color: #222;
+  list-style: none;
+}
+
+.container-header nav a {
+  color: #222;
+}
+
+.container-header a:hover {
+  color: #ccc;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
 .logo {
   font-size: 2.2rem;
   font-weight: 900;
-  color: #2E7D32;
+  color: #2e7d32;
   letter-spacing: -1px;
 }
 .logo span {
@@ -82,13 +103,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../public/images/banner-dash.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #f7f8f8;
   height: 20rem;
   position: relative;
-  
 }
 
 .dashboard-cards {
@@ -124,7 +141,7 @@ body {
   font-size: 3rem;
   color: #222;
   border-radius: 50%;
-  color: #2E7D32;
+  color: #2e7d32;
 }
 
 .social-page-main {
@@ -154,8 +171,8 @@ body {
 }
 
 .logout-button {
-  background-color: #222;
-  color: #fff;
+  background-color: #fff;
+  color: #222;
   border: none;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -179,16 +196,8 @@ body {
   width: full;
   height: 400px;
   margin: auto;
-  box-shadow:0 2px 8px #0001;
+  box-shadow: 0 2px 8px #0001;
   padding: 1.5rem 2rem;
-}
-
-
-.social-page-cards-title {
-  font-size: 2rem;
-  font-weight: 900;
-  color: #222;
-  letter-spacing: -1px;
 }
 
 .social-page-cards-nav {
@@ -231,7 +240,7 @@ body {
 }
 
 .social-page-cards-nav-list li a:hover {
-  color: #2E7D32;
+  color: #2e7d32;
   font-weight: 900;
   transform: scale(1.05);
 }
@@ -266,11 +275,10 @@ body {
 
 .container-header a {
   text-decoration: none;
-  
 }
 
 .new-post-button {
-  background-color: #0B8C00;
+  background-color: #0b8c00;
   color: white;
   border: none;
   border-radius: 6px;
@@ -289,7 +297,7 @@ body {
 .new-post-button:hover {
   background-color: #097800;
   transform: translateY(-1px);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .filter-container {
@@ -339,5 +347,3 @@ body {
   color: #888;
   cursor: pointer;
 }
-
-
