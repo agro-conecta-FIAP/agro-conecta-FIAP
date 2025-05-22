@@ -68,6 +68,13 @@ body {
   transition: all 0.3s ease;
 }
 
+nav {
+  display: flex;
+    gap: 2rem; 
+    align-items: center;
+    padding: 1px;
+}
+
 .logo {
   font-size: 2.2rem;
   font-weight: 900;
