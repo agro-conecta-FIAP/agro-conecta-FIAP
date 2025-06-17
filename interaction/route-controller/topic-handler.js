@@ -141,6 +141,8 @@ function renderPosts(posts) {
       form.reset();
     });
   });
+
+  addTopicTagClickListeners();
 }
 
 // Função para re-renderizar apenas os comentários de um post
@@ -289,4 +291,23 @@ function displayTopicTags() {
       });
     }
   });
+}
+
+function addTopicTagClickListeners() {
+  const topicTags = document.querySelectorAll(".topic-tag");
+  topicTags.forEach((tag) => {
+    tag.addEventListener("click", function () {
+      const selectedTag = this.textContent.replace("#", "").trim();
+      filterPostsByTag(selectedTag);
+    });
+  });
+}
+
+function filterPostsByTag(tag) {
+  // Supondo que você tenha uma função para renderizar posts filtrados
+  renderPosts(allSocialPosts.filter((post) => post.topics.includes(tag)));
+  // Opcional: atualizar o display do tópico selecionado
+  document.getElementById(
+    "selected-topic-display"
+  ).textContent = `Filtrando por: #${tag}`;
 }
