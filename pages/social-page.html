@@ -1,122 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AgroConecta | Troca de Conhecimentos</title>
-    <link rel="shortcut icon" href="../public/images/logo.ico" />
-    <link rel="stylesheet" href="../style/social-page.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-  </head>
 
-  <body>
-    <div class="social-page-container">
-      <header class="dashboard-header">
-        <div class="container-header">
-          <a href="dashboard.html" class="logo">AgroConecta</a>
-          <nav>
-            <ul>
-              <li>
-                <a href="#" class="dashboard-footer-link desactive" id="sobre"
-                  >Sobre</a
-                >
-              </li>
-              <li>
-                <a href="#" class="dashboard-footer-link desactive" id="termos"
-                  >Termos</a
-                >
-              </li>
-              <li>
-                <a
-                  href="contato.html"
-                  class="dashboard-footer-link"
-                  id="contato"
-                  >Contato</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <div class="menu-user">
-            <button class="logout-button">
-              <i class="fas fa-sign-out-alt"></i> Logout
-            </button>
-            <button class="user-area" id="user-area">
-              <span>Olá, Edson</span>
-              <img src="../public/images/circle-user.png" alt="User" />
-            </button>
-          </div>
-        </div>
-      </header>
-      <main class="social-page-main">
-        <aside class="social-page-cards">
-          <button class="new-post-button open-modal" data-modal="new-post">
-            <i class="fas fa-plus"></i> Nova Publicação
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroConecta | Troca de Conhecimentos</title>
+  <link rel="shortcut icon" href="../public/images/logo.ico" />
+  <link rel="stylesheet" href="../style/social-page.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <div class="social-page-container">
+    <header class="dashboard-header">
+      <div class="container-header">
+        <a href="dashboard.html" class="logo">AgroConecta</a>
+        <nav>
+          <ul>
+            <li>
+              <a href="#" class="dashboard-footer-link desactive" id="sobre">Sobre</a>
+            </li>
+            <li>
+              <a href="#" class="dashboard-footer-link desactive" id="termos">Termos</a>
+            </li>
+            <li>
+              <a href="contato.html" class="dashboard-footer-link" id="contato">Contato</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-user">
+          <button class="logout-button">
+            <i class="fas fa-sign-out-alt"></i> Logout
           </button>
+          <button class="user-area" id="user-area">
+            <span>Olá, Edson</span>
+            <img src="../public/images/circle-user.png" alt="User" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="social-page-main">
+      <aside class="social-page-cards">
+        <button class="new-post-button open-modal" data-modal="new-post">
+          <i class="fas fa-plus"></i> Nova Publicação
+        </button>
 
-          <div class="filter-container">
-            <div class="filter-dropdown">
-              <select id="filter-category-select" class="filter-button">
-                <option value="">Filtrar por categoria</option>
-              </select>
-              <button id="clear-filter-button" class="clear-filter-button">
-                <i class="fas fa-times"></i>
-              </button>
-            </div>
-
-            <div class="search-box">
-              <input type="text" placeholder="Buscar" />
-              <button class="search-button">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
+        <div class="filter-container">
+          <div class="filter-dropdown">
+            <select id="filter-category-select" class="filter-button">
+              <option value="">Filtrar por categoria</option>
+            </select>
+            <button id="clear-filter-button" class="clear-filter-button">
+              <i class="fas fa-times"></i>
+            </button>
           </div>
-        </aside>
 
-        <section class="social-page-section">
-          <div id="selected-topic-display"></div>
-        </section>
-      </main>
-    </div>
+          <div class="search-box">
+            <input type="text" placeholder="Buscar" />
+            <button class="search-button">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </aside>
 
-    <dialog id="new-post">
-      <h2>Criar Nova Publicação</h2>
-      <form id="new-post-form">
-        <div class="form-group">
-          <label for="post-author-name">Nome do Autor:</label>
-          <input type="text" id="post-author-name" required />
-        </div>
-        <div class="form-group">
-          <label for="post-author-subtitle">Subtítulo do Autor:</label>
-          <input type="text" id="post-author-subtitle" required />
-        </div>
-        <div class="form-group">
-          <label for="post-content">Conteúdo da Publicação:</label>
-          <textarea id="post-content" rows="8" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="post-topics">Tópicos (separados por vírgula):</label>
-          <input
-            type="text"
-            id="post-topics"
-            placeholder="Ex: Soja, Manejo de Solo"
-          />
-        </div>
-        <div class="form-actions">
-          <button type="submit" class="publish-post-button">Publicar</button>
-          <button type="button" class="close-modal-button">Cancelar</button>
-        </div>
-      </form>
-    </dialog>
+      <section class="social-page-section">
+        <div id="selected-topic-display"></div>
+      </section>
+    </main>
+  </div>
 
-    <script src="../interaction/route-controller/logout.js"></script>
-    <script src="../interaction/route-controller/topic-handler.js"></script>
-    <script src="../interaction/route-controller/new-post-modal.js"></script>
-  </body>
+  <dialog id="new-post">
+    <h2>Criar Nova Publicação</h2>
+    <form id="new-post-form">
+      <div class="form-group">
+        <label for="post-author-subtitle">Subtítulo do Autor:</label>
+        <input type="text" id="post-author-subtitle" required />
+      </div>
+      <div class="form-group">
+        <label for="post-content">Conteúdo da Publicação:</label>
+        <textarea id="post-content" rows="8" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="post-topics">Tópicos (separados por vírgula):</label>
+        <input type="text" id="post-topics" placeholder="Ex: Soja, Manejo de Solo" />
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="publish-post-button">Publicar</button>
+        <button type="button" class="close-modal-button">Cancelar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="../interaction/route-controller/logout.js"></script>
+  <script src="../interaction/route-controller/topic-handler.js"></script>
+  <script src="../interaction/route-controller/new-post-modal.js"></script>
+</body>
+
 </html>

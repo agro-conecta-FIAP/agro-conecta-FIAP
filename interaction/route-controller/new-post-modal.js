@@ -26,19 +26,18 @@ document.addEventListener("DOMContentLoaded", () => {
   newPostForm.addEventListener("submit", (event) => {
     event.preventDefault(); // Prevent default form submission
 
-    const authorName = postAuthorNameInput.value;
     const authorSubtitle = postAuthorSubtitleInput.value;
     const postContent = postContentTextarea.value;
     const postTopics = postTopicsInput.value;
 
-    if (!authorName || !postContent) {
-      alert("Nome do Autor e Conteúdo da Publicação são obrigatórios!");
+    if (!postContent) {
+      alert("Conteúdo da Publicação é obrigatório!");
       return;
     }
 
     // Create a new post object
     const newPost = {
-      authorName: authorName,
+      authorName: "Edson",
       authorSubtitle: authorSubtitle,
       content: postContent,
       topics: postTopics,
