@@ -124,7 +124,7 @@ function renderPosts(posts) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       const idx = parseInt(form.getAttribute("data-post-idx"));
-      const name = form.elements["name"].value.trim() || "Anônimo";
+      const name = "Edson";
       const content = form.elements["content"].value.trim();
       if (!content) return;
       const now = new Date();
