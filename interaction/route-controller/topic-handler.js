@@ -81,7 +81,6 @@ function renderPosts(posts) {
     commentsHtml += `
       <form class='add-comment-form' data-post-idx='${idx}'>
       <div class='add-comment-form-header'>
-        <input class='add-comment-form-input' type='text' name='name' placeholder='Seu nome' required style='margin-bottom:4px;'/><br />
         <textarea class='add-comment-form-textarea' name='content' placeholder='Escreva um comentário...' required rows='2'></textarea><br />
       </div>
         <button type='submit'>Comentar</button>
