@@ -37,7 +37,7 @@
     <main class="social-page-main">
       <aside class="social-page-cards">
 
-        <button disabled="disabled" class="new-post-button desactive">
+        <button class="new-post-button open-modal" data-modal="new-post">
           <i class="fas fa-plus"></i> Nova Publicação
         </button>
 
@@ -107,7 +107,13 @@
       </section>
     </main>
   </div>
+
+  <dialog id="new-post">
+    <h1>Teste</h1>
+  </dialog>
+
   <script src="../interaction/route-controller/logout.js"></script>
+  <script src="../interaction/route-controller/new-post-modal.js"></script>
 </body>
 
 </html>
