@@ -1,119 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgroConecta | Troca de Conhecimentos</title>
+    <link rel="shortcut icon" href="../public/images/logo.ico" />
+    <link rel="stylesheet" href="../style/social-page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AgroConecta | Troca de Conhecimentos</title>
-  <link rel="shortcut icon" href="../public/images/logo.ico">
-  <link rel="stylesheet" href="../style/social-page.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-
-<body>
-  <div class="social-page-container">
-    <header class="dashboard-header">
-      <div class="container-header">
-        <a href="dashboard.html" class="logo">AgroConecta</a>
-        <nav>
-          <ul>
-            <li><a href="#" class="dashboard-footer-link desactive" id="sobre">Sobre</a></li>
-            <li><a href="#" class="dashboard-footer-link desactive" id="termos">Termos</a></li>
-            <li><a href="contato.html" class="dashboard-footer-link" id="contato">Contato</a></li>
-          </ul>
-        </nav>
-        <div class="menu-user">
-          <button class="logout-button">
-            <i class="fas fa-sign-out-alt"></i> Logout
-          </button>
-          <button class="user-area" id="user-area">
-            <span>Olá, Edson</span>
-            <img src="../public/images/circle-user.png" alt="User">
-          </button>
-        </div>
-      </div>
-    </header>
-    <main class="social-page-main">
-      <aside class="social-page-cards">
-
-        <button class="new-post-button open-modal" data-modal="new-post">
-          <i class="fas fa-plus"></i> Nova Publicação
-        </button>
-
-        <div class="filter-container">
-          <div class="filter-dropdown">
-            <button disabled="disabled" class="desactive filter-button">
-              Filtrar por categoria <i class="fas fa-chevron-down"></i>
+  <body>
+    <div class="social-page-container">
+      <header class="dashboard-header">
+        <div class="container-header">
+          <a href="dashboard.html" class="logo">AgroConecta</a>
+          <nav>
+            <ul>
+              <li>
+                <a href="#" class="dashboard-footer-link desactive" id="sobre"
+                  >Sobre</a
+                >
+              </li>
+              <li>
+                <a href="#" class="dashboard-footer-link desactive" id="termos"
+                  >Termos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contato.html"
+                  class="dashboard-footer-link"
+                  id="contato"
+                  >Contato</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="menu-user">
+            <button class="logout-button">
+              <i class="fas fa-sign-out-alt"></i> Logout
             </button>
-          </div>
-
-          <div class="search-box">
-            <input type="text" placeholder="Buscar" class="desactive">
-            <button disabled="disabled" class="search-button">
-              <i class="fas fa-search"></i>
+            <button class="user-area" id="user-area">
+              <span>Olá, Edson</span>
+              <img src="../public/images/circle-user.png" alt="User" />
             </button>
           </div>
         </div>
-      </aside>
-      <section class="social-page-section">
-        <article class="social-page-section-article">
-          <div class="social-page-section-article-header">
-            <img src="../public/images/circle-user.png" alt="Antônio Souza Campos" style="width:48px;height:48px;border-radius:50%;object-fit:cover;">
-            <div>
-              <strong class="social-page-section-article-header-name">Antônio Souza Campos</strong><br>
-              <span class="social-page-section-article-header-name-subtitle">Agricultor</span>
+      </header>
+      <main class="social-page-main">
+        <aside class="social-page-cards">
+          <button class="new-post-button open-modal" data-modal="new-post">
+            <i class="fas fa-plus"></i> Nova Publicação
+          </button>
+
+          <div class="filter-container">
+            <div class="filter-dropdown">
+              <select id="filter-category-select" class="filter-button">
+                <option value="">Filtrar por categoria</option>
+              </select>
+              <button id="clear-filter-button" class="clear-filter-button">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+
+            <div class="search-box">
+              <input type="text" placeholder="Buscar" />
+              <button class="search-button">
+                <i class="fas fa-search"></i>
+              </button>
             </div>
           </div>
-          <div class="social-page-section-article-content">
-            🌱 <strong>Dica boa pra quem planta soja!</strong> 🌱<br><br>
-            Amigos da roça, uma técnica que venho usando e tem dado resultado é o manejo certo do enxofre e do boro no solo. Muita gente cuida do NPK, mas esquece desses dois — e eles fazem diferença na florada e na formação das vagens!<br><br>
-            👉 Antes de plantar, fiz uma análise de solo e vi que tava faltando enxofre. Corrigi com gesso agrícola e complementei com boro na adubação foliar. Resultado? A lavoura ficou mais uniforme, com mais vagens por planta e grãos bem formados.<br><br>
-            Não precisa gastar muito, só fazer no tempo certo e com orientação. Vale a pena dar uma olhada nisso!<br><br>
-            🌾 <strong>Produção aumentou e a soja agradece!</strong><br><br>
-            <span style="color:#888;">#DicaDoCampo #SojaForte #ManejoCerto</span>
-          </div>
-        </article>
-        <article class="social-page-section-article">
-          <div class="social-page-section-article-header">
-            <img src="../public/images/circle-user.png" alt="Maria Oliveira" style="width:48px;height:48px;border-radius:50%;object-fit:cover;">
-            <div>
-              <strong class="social-page-section-article-header-name">Maria Oliveira</strong><br>
-              <span class="social-page-section-article-header-name-subtitle">Produtora Rural</span>
-            </div>
-          </div>
-          <div class="social-page-section-article-content">
-            🌾 <strong>Dica para quem cultiva milho!</strong> 🌽<br><br>
-            Sempre faço a rotação de culturas aqui na fazenda. Alternar milho com leguminosas ajuda a melhorar a fertilidade do solo e reduz pragas.<br><br>
-            💧 Outra dica: fique atento à irrigação nas fases críticas do milho, principalmente na floração e enchimento de grãos. Isso faz toda diferença na produtividade!<br><br>
-            <span style="color:#888;">#MilhoForte #RotacaoDeCultura #DicaDaMaria</span>
-          </div>
-        </article>
-        <article class="social-page-section-article">
-          <div class="social-page-section-article-header">
-            <img src="../public/images/circle-user.png" alt="João Batista" style="width:48px;height:48px;border-radius:50%;object-fit:cover;">
-            <div>
-              <strong class="social-page-section-article-header-name">João Batista</strong><br>
-              <span class="social-page-section-article-header-name-subtitle">Engenheiro Agrônomo</span>
-            </div>
-          </div>
-          <div class="social-page-section-article-content">
-            🍅 <strong>Tomate saudável, colheita garantida!</strong> 🍅<br><br>
-            Para evitar doenças fúngicas no tomateiro, sempre faço espaçamento adequado entre as plantas e evito molhar as folhas durante a irrigação.<br><br>
-            🐞 Uso controle biológico para pragas, como joaninhas para pulgões. Assim, mantenho a produção mais sustentável e saudável.<br><br>
-            <span style="color:#888;">#Tomate #ControleBiologico #AgroSustentavel</span>
-          </div>
-        </article>
-      </section>
-    </main>
-  </div>
+        </aside>
 
-  <dialog id="new-post">
-    <h1>Teste</h1>
-  </dialog>
+        <section class="social-page-section">
+          <div id="selected-topic-display"></div>
+        </section>
+      </main>
+    </div>
 
-  <script src="../interaction/route-controller/logout.js"></script>
-  <script src="../interaction/route-controller/new-post-modal.js"></script>
-</body>
+    <dialog id="new-post">
+      <h2>Criar Nova Publicação</h2>
+      <form id="new-post-form">
+        <div class="form-group">
+          <label for="post-author-name">Nome do Autor:</label>
+          <input type="text" id="post-author-name" required />
+        </div>
+        <div class="form-group">
+          <label for="post-author-subtitle">Subtítulo do Autor:</label>
+          <input type="text" id="post-author-subtitle" required />
+        </div>
+        <div class="form-group">
+          <label for="post-content">Conteúdo da Publicação:</label>
+          <textarea id="post-content" rows="8" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="post-topics">Tópicos (separados por vírgula):</label>
+          <input
+            type="text"
+            id="post-topics"
+            placeholder="Ex: Soja, Manejo de Solo"
+          />
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="publish-post-button">Publicar</button>
+          <button type="button" class="close-modal-button">Cancelar</button>
+        </div>
+      </form>
+    </dialog>
 
+    <script src="../interaction/route-controller/logout.js"></script>
+    <script src="../interaction/route-controller/topic-handler.js"></script>
+    <script src="../interaction/route-controller/new-post-modal.js"></script>
+  </body>
 </html>

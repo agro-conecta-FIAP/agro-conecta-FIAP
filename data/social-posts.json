@@ -1,0 +1,364 @@
+[
+  {
+    "authorName": "Antônio Souza Campos",
+    "authorSubtitle": "Agricultor",
+    "content": "🌱 <strong>Dica boa pra quem planta soja!</strong> 🌱<br /><br />Amigos da roça, uma técnica que venho usando e tem dado resultado é o manejo certo do enxofre e do boro no solo. Muita gente cuida do NPK, mas esquece desses dois — e eles fazem diferença na florada e na formação das vagens!<br /><br />👉 Antes de plantar, fiz uma análise de solo e vi que tava faltando enxofre. Corrigi com gesso agrícola e complementei com boro na adubação foliar. Resultado? A lavoura ficou mais uniforme, com mais vagens por planta e grãos bem formados.<br /><br />Não precisa gastar muito, só fazer no tempo certo e com orientação. Vale a pena dar uma olhada nisso!<br /><br />🌾 <strong>Produção aumentou e a soja agradece!</strong>",
+    "topics": "Soja, Manejo de Solo, Enxofre, Boro, Florada, Vagens, Adubação Foliar, Produção Agrícola",
+    "coments": [
+      {
+        "name": "Maria Oliveira",
+        "data": "2024-06-01",
+        "content": "Ótima dica, Antônio! Vou testar na próxima safra."
+      },
+      {
+        "name": "João Batista",
+        "data": "2024-06-02",
+        "content": "Também uso gesso agrícola e realmente faz diferença!"
+      },
+      {
+        "name": "Carlos Silva",
+        "data": "2024-06-03",
+        "content": "Muito bom saber, obrigado por compartilhar!"
+      }
+    ]
+  },
+  {
+    "authorName": "Maria Oliveira",
+    "authorSubtitle": "Produtora Rural",
+    "content": "🌾 <strong>Dica para quem cultiva milho!</strong> 🌽<br /><br />Sempre faço a rotação de culturas aqui na fazenda. Alternar milho com leguminosas ajuda a melhorar a fertilidade do solo e reduz pragas.<br /><br />💧 Outra dica: fique atento à irrigação nas fases críticas do milho, principalmente na floração e enchimento de grãos. Isso faz toda diferença na produtividade!",
+    "topics": "Milho, Rotação de Culturas, Irrigação, Pragas, Produção Agrícola",
+    "coments": [
+      {
+        "name": "Ana Paula",
+        "data": "2024-06-01",
+        "content": "Faço rotação com feijão e percebi melhora no solo também!"
+      },
+      {
+        "name": "Gabriel Neves",
+        "data": "2024-06-02",
+        "content": "Ótima dica sobre irrigação, obrigado!"
+      }
+    ]
+  },
+  {
+    "authorName": "João Batista",
+    "authorSubtitle": "Engenheiro Agrônomo",
+    "content": "🍅 <strong>Tomate saudável, colheita garantida!</strong> 🍅<br /><br />Para evitar doenças fúngicas no tomateiro, sempre faço espaçamento adequado entre as plantas e evito molhar as folhas durante a irrigação.<br /><br />🐞 Uso controle biológico para pragas, como joaninhas para pulgões. Assim, mantenho a produção mais sustentável e saudável.",
+    "topics": "Tomate, Doenças Fúngicas, Controle Biológico, Pragas, Agricultura Sustentável",
+    "coments": [
+      {
+        "name": "Mariana Costa",
+        "data": "2024-06-01",
+        "content": "Uso joaninhas também, são ótimas aliadas!"
+      },
+      {
+        "name": "Lucas F.",
+        "data": "2024-06-02",
+        "content": "Espaçamento faz toda diferença mesmo. Parabéns pela dica!"
+      },
+      {
+        "name": "Fernanda S.",
+        "data": "2024-06-03",
+        "content": "Vou aplicar na minha horta, obrigado!"
+      },
+      {
+        "name": "Patrícia G.",
+        "data": "2024-06-04",
+        "content": "Muito bom! Agricultura sustentável é o caminho."
+      }
+    ]
+  },
+  {
+    "authorName": "Ana Paula",
+    "authorSubtitle": "Pecuarista",
+    "content": "🐄 <strong>Manejo de pastagem eficiente!</strong> 🌿<br /><br />Para garantir uma boa alimentação do gado, faço rotação de pastagens e sempre verifico a qualidade do solo. Isso aumenta a produção de forragem e a saúde do rebanho.<br /><br />Fiquem ligados nas dicas de manejo para uma pecuária mais rentável!",
+    "topics": "Manejo de Solo, Produção Agrícola, Agricultura Sustentável",
+    "coments": [
+      {
+        "name": "Beatriz Lima",
+        "data": "2024-06-01",
+        "content": "Rotação de pastagem mudou minha produção!"
+      }
+    ]
+  },
+  {
+    "authorName": "Carlos Silva",
+    "authorSubtitle": "Floricultor",
+    "content": "🌸 <strong>Flores mais vibrantes e saudáveis!</strong> 🌼<br /><br />A adubação foliar é um segredo para flores com cores mais intensas e maior durabilidade. Uso um bom fertilizante rico em potássio na fase de floração. Experimentem!<br /><br />As plantas agradecem e o jardim fica um espetáculo!",
+    "topics": "Adubação Foliar, Florada",
+    "coments": [
+      {
+        "name": "Bianca L.",
+        "data": "2024-06-01",
+        "content": "Adorei a dica, vou testar no meu jardim!"
+      },
+      {
+        "name": "Sofia Mendes",
+        "data": "2024-06-02",
+        "content": "Flores lindas mesmo!"
+      },
+      {
+        "name": "Fernando Lima",
+        "data": "2024-06-03",
+        "content": "Uso potássio nas minhas plantas e funciona muito bem."
+      },
+      {
+        "name": "Juliana B.",
+        "data": "2024-06-04",
+        "content": "Obrigada por compartilhar!"
+      },
+      {
+        "name": "Márcio V.",
+        "data": "2024-06-05",
+        "content": "Dica valiosa para quem trabalha com flores."
+      }
+    ]
+  },
+  {
+    "authorName": "Mariana Costa",
+    "authorSubtitle": "Produtora de Hortaliças",
+    "content": "🥬 <strong>Hortaliças livres de pragas!</strong> 🥕<br /><br />Para controlar pulgões e outras pragas sem agredir o meio ambiente, uso uma solução caseira de sabão de coco. É eficaz e não prejudica as plantas nem a saúde!<br /><br />Sua horta orgânica agradece!",
+    "topics": "Pragas, Controle Biológico, Agricultura Sustentável",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Pedro Rocha",
+    "authorSubtitle": "Viticultor",
+    "content": "🍇 <strong>Vinho de qualidade começa na poda!</strong> 🍷<br /><br />A poda correta é essencial para uma boa produção de uvas. Faço a poda de inverno para controlar o crescimento da videira e garantir que a planta direcione a energia para os frutos.<br /><br />Um bom vinho é resultado de um bom manejo!",
+    "topics": "Produção Agrícola",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Sofia Mendes",
+    "authorSubtitle": "Produtora de Café",
+    "content": "☕ <strong>Segredos para um café especial!</strong> 🌿<br /><br />A qualidade do café começa no solo. Invisto em adubação orgânica e manejo da sombra para proteger os cafeeiros. O resultado é um grão mais saboroso e aromático.<br /><br />Pequenos detalhes fazem grande diferença no café!",
+    "topics": "Manejo de Solo, Adubação Foliar, Produção Agrícola, Agricultura Sustentável",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Gabriel Neves",
+    "authorSubtitle": "Produtor de Frutas",
+    "content": "🍓 <strong>Frutas mais doces e saudáveis!</strong> 🥭<br /><br />O segredo para frutas com sabor intenso é a irrigação controlada e a adubação com micronutrientes. Isso garante o desenvolvimento ideal e a qualidade dos frutos.<br /><br />Colheita farta e saborosa, é o que queremos!",
+    "topics": "Irrigação, Adubação Foliar, Produção Agrícola",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Beatriz Lima",
+    "authorSubtitle": "Zootecnista",
+    "content": "🐑 <strong>Saúde animal em primeiro lugar!</strong> 🐐<br /><br />A prevenção de doenças é crucial na criação de ovinos e caprinos. Mantenho um calendário de vacinação rigoroso e higiene nas instalações para evitar problemas de saúde.<br /><br />Animais saudáveis, rebanho produtivo!",
+    "topics": "Controle Biológico",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Daniel Martins",
+    "authorSubtitle": "Engenheiro Florestal",
+    "content": "🌳 <strong>Manejo florestal sustentável!</strong> 🌲<br /><br />A colheita de madeira pode ser feita de forma responsável. Sigo as normas de manejo florestal, garantindo a regeneração da floresta e a biodiversidade.<br /><br />Futuro verde, consciência limpa!",
+    "topics": "Agricultura Sustentável",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Isabela Pereira",
+    "authorSubtitle": "Produtora de Grãos",
+    "content": "🌾 <strong>Armazenamento correto de grãos!</strong> 📈<br /><br />Para evitar perdas e manter a qualidade dos grãos, invisto em silos com controle de umidade e temperatura. Isso garante a durabilidade da colheita.<br /><br />Grãos protegidos, lucro garantido!",
+    "topics": "Produção Agrícola",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Fernando Lima",
+    "authorSubtitle": "Apicultor",
+    "content": "🐝 <strong>Abelhas saudáveis, mel de qualidade!</strong> 🍯<br /><br />Cuido da saúde das minhas colmeias monitorando doenças e garantindo a disponibilidade de flores. Abelhas fortes produzem mel puro e em abundância.<br /><br />Polinização e mel garantidos!",
+    "topics": "Agricultura Sustentável",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Fernanda Silva",
+    "authorSubtitle": "Pesquisadora Agrícola",
+    "content": "🔬 <strong>Inovação no campo!</strong> 💡<br /><br />Novas tecnologias e pesquisas são cruciais para o avanço da agricultura. Estou estudando técnicas de cultivo vertical para otimizar o espaço e o uso da água.<br /><br />A ciência a serviço do agronegócio!",
+    "topics": "Produção Agrícola, Agricultura Sustentável, Irrigação",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Ricardo M.",
+    "authorSubtitle": "Cafeicultor",
+    "content": "☕ <strong>Poda inteligente para cafeeiros!</strong> 🍂<br /><br />A poda é fundamental para a saúde e produtividade do cafezal. Faço a poda de formação e de produção para garantir uma colheita abundante e de qualidade. É um trabalho que exige técnica, mas vale a pena!",
+    "topics": "Produção Agrícola",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Patrícia G.",
+    "authorSubtitle": "Produtora Orgânica",
+    "content": "🌍 <strong>Solo vivo, alimento saudável!</strong> 🌱<br /><br />Na agricultura orgânica, o segredo é o manejo do solo. Compostagem, adubação verde e rotação de culturas são práticas que mantêm o solo rico em nutrientes e a produção sustentável.<br /><br />Alimentos orgânicos direto da nossa terra para a sua mesa!",
+    "topics": "Manejo de Solo, Agricultura Sustentável, Rotação de Culturas",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Lucas F.",
+    "authorSubtitle": "Consultor Agrônomo",
+    "content": "🐞 <strong>Controle natural de pragas na horta!</strong> 🐛<br /><br />Para manter as pragas longe sem usar químicos, aposto em insetos benéficos, como as joaninhas, e armadilhas caseiras. É ecologicamente correto e eficaz!<br /><br />Proteja sua horta de forma inteligente!",
+    "topics": "Pragas, Controle Biológico, Agricultura Sustentável",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Fernanda S.",
+    "authorSubtitle": "Engenheira Agrícola",
+    "content": "💧 <strong>Irrigação consciente, colheita garantida!</strong> 💦<br /><br />A otimização do uso da água na irrigação é crucial. Adoto sistemas de gotejamento e sensores de umidade para fornecer a quantidade exata de água que as plantas precisam, evitando desperdício.<br /><br />Economia de água e maior produtividade!",
+    "topics": "Irrigação, Agricultura Sustentável, Produção Agrícola",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Roberto C.",
+    "authorSubtitle": "Especialista em Nutrição de Plantas",
+    "content": "🔬 <strong>Micronutrientes: o segredo das plantas saudáveis!</strong> 🌿<br /><br />Muitas vezes esquecidos, os micronutrientes como zinco, ferro e manganês são vitais para o desenvolvimento das plantas. A adubação foliar com esses elementos garante plantas mais resistentes e produtivas.<br /><br />Invista na nutrição completa da sua lavoura!",
+    "topics": "Adubação Foliar, Produção Agrícola",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Juliana B.",
+    "authorSubtitle": "Agrônoma",
+    "content": "🔄 <strong>Rotação de culturas: o ciclo da produtividade!</strong> 🌾<br /><br />Alternar o cultivo de diferentes espécies no mesmo solo traz inúmeros benefícios: melhora a estrutura do solo, controla pragas e doenças, e otimiza o uso de nutrientes. É essencial para a sustentabilidade!<br /><br />Sua terra agradece e sua colheita prospera!",
+    "topics": "Rotação de Culturas, Produção Agrícola, Manejo de Solo",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Márcio V.",
+    "authorSubtitle": "Fitopatologista",
+    "content": "🦠 <strong>Defenda sua lavoura de fungos!</strong> 🛡️<br /><br />Doenças fúngicas podem devastar a produção. Mantenho um monitoramento constante, uso variedades resistentes e aplico fungicidas de forma preventiva e responsável. O manejo integrado é a chave!<br /><br />Proteja seu investimento e garanta a colheita!",
+    "topics": "Doenças Fúngicas, Pragas, Controle Biológico",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Bianca L.",
+    "authorSubtitle": "Produtora de Estufa",
+    "content": "🏡 <strong>Estufa: um mundo de possibilidades!</strong> 🥕<br /><br />O cultivo em estufa permite controlar o ambiente, proteger as plantas do clima e pragas, e produzir o ano todo. Com o manejo adequado, a produtividade é impressionante!<br /><br />Invista na tecnologia para otimizar sua produção!",
+    "topics": "Produção Agrícola, Irrigação, Agricultura Sustentável",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Thiago R.",
+    "authorSubtitle": "Ambientalista Rural",
+    "content": "🌳 <strong>Agrofloresta: o futuro da produção!</strong> 🌲<br /><br />Os sistemas agroflorestais integram árvores, culturas agrícolas e criação de animais. Trazem benefícios como a recuperação do solo, aumento da biodiversidade e produção diversificada. É um modelo sustentável!<br /><br />Cultive com consciência, colha o futuro!",
+    "topics": "Agricultura Sustentável, Manejo de Solo",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  },
+  {
+    "authorName": "Camila D.",
+    "authorSubtitle": "Veterinária",
+    "content": "🥩 <strong>Nutrição animal: a base do rebanho forte!</strong> 🥛<br /><br />Uma alimentação balanceada é essencial para a saúde e o desempenho dos animais. Invisto em rações de qualidade e suplementação adequada para garantir o bem-estar e a produtividade do meu rebanho.<br /><br />Animais nutridos, lucro garantido!",
+    "topics": "Controle Biológico",
+    "coments": [
+      {
+        "name": "",
+        "data": "",
+        "content": ""
+      }
+    ]
+  }
+]
