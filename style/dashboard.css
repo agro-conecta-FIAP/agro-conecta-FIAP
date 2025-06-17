@@ -30,6 +30,7 @@ body {
 .desactive {
   opacity: 0.5;
   cursor: not-allowed !important;
+  color: #222;
 }
 
 .dashboard-header {
@@ -178,7 +179,7 @@ nav {
 }
 
 .dashboard-card button:hover {
-  background: #222;
+  background: #246528;
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
@@ -218,4 +219,11 @@ nav {
 .video-youtube a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: 'Poppins', Arial, sans-serif;
 }

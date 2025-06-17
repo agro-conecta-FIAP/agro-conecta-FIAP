@@ -211,3 +211,10 @@ body {
   font-size: 1.2rem;
   color: #666;
 }
+
+input,
+textarea,
+select,
+button {
+  font-family: 'Poppins', Arial, sans-serif;
+}

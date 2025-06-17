@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #222;
+  background-color: #f7f8f8;
+}
+
 .container-login {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -53,16 +60,25 @@
 }
 
 #form-login {
-  max-width: 400px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto;background-color: #fff;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 #form-register {
   display: none;
-  max-width: 400px;
   width: 100%;
+  background-color: #fff;
+  max-width: 600px;
   margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .close {
@@ -265,4 +281,11 @@ button[type="submit"]:hover {
 
 #form-contato button:hover {
   background-color: #1b5e20;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: 'Poppins', Arial, sans-serif;
 }
