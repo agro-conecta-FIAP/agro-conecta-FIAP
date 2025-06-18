@@ -1,74 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgroConecta | Home</title>
+    <link rel="shortcut icon" href="../public/images/logo.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../style/dashboard.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AgroConecta | Home</title>
-  <link rel="shortcut icon" href="../public/images/logo.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="../style/dashboard.css">
-</head>
-
-<body>
-  <header class="dashboard-header">
-    <div class="container-header">
-      <a href="dashboard.html" class="logo">AgroConecta</a>
-      <nav>
+  <body>
+    <header class="dashboard-header">
+      <div class="container-header">
+        <a href="dashboard.html" class="logo">AgroConecta</a>
+        <nav>
           <ul>
-            <li><a href="#" class="dashboard-footer-link desactive" id="sobre">Sobre</a></li>
+            <li>
+              <a href="#" class="dashboard-footer-link desactive" id="sobre"
+                >Sobre</a
+              >
+            </li>
 
-            <li><a href="#" class="dashboard-footer-link desactive" id="termos">Termos</a></li>
-            
-            <li><a href="contato.html" class="dashboard-footer-link" id="contato">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="menu-user">
-        <button class="logout-button">
-          <i class="fas fa-sign-out-alt"></i> Logout
-        </button>
-        <button class="user-area" id="user-area">
-          <span>Olá, Edson</span>
-          <img src="../public/images/circle-user.png" alt="User">
-        </button>
-      </div>
-    </div>
-  </header>
-  <main class="dashboard-main">
-    <section class="dashboard-section">
-      <div class="dashboard-cards"></div>
-      <div class="dashboard-card">
-        <img src="../public/images/cart-shopping.png" alt="Marketplace de Alimentos">
-        <h2>Marketplace de Alimentos</h2>
-        <p>Venda direta do produtor para o consumidor</p>
-        <button class="desactive">Acessar</button>
-      </div>
-      <div class="dashboard-card">
-        <img src="../public/images/graph.png" alt="Cotação de Preços">
-        <h2>Cotação de Preços</h2>
-        <p>Consulte valores atualizados do Ceasa</p>
-        <button class="desactive">Acessar</button>
-      </div>
-      <div class="dashboard-card">
-        <img src="../public/images/person.png" alt="Mão de Obra e Serviços">
-        <h2>Mão de Obra e Serviços</h2>
-        <p>Encontre ou ofereça vagas legalizadas ou serviços</p>
-        <button class="desactive">Acessar</button>
-      </div>
-      <div class="dashboard-card">
-        <img src="../public/images/book.png" alt="Troca de Conhecimentos">
-        <h2>Troca de Conhecimentos</h2>
-        <p>Compartilhe experiências com outros produtores</p>
-        <button onclick="window.location.href='../pages/social-page.html'">Acessar</button>
-      </div>
-    </section>
-    <div class="video-youtube">
-      <p>Clique para assistir ao vídeo: <span><a href="https://youtu.be/EhvXxKaoYPk?si=hFtQcXBZkpwOnSE7">assistir agora</a></span></p>
-    </div>
-  </main>
-  <script src="../interaction/route-controller/dashboard.js"></script>
-  <script src="../interaction/route-controller/logout.js"></script>
-</body>
+            <li>
+              <a href="#" class="dashboard-footer-link desactive" id="termos"
+                >Termos</a
+              >
+            </li>
 
+            <li>
+              <a href="contato.html" class="dashboard-footer-link" id="contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-user">
+          <button class="logout-button">
+            <i class="fas fa-sign-out-alt"></i> Logout
+          </button>
+          <button class="user-area" id="user-area">
+            <span>Olá, Edson</span>
+            <img src="../public/images/circle-user.png" alt="User" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="dashboard-main">
+      <section class="dashboard-section">
+        <div class="dashboard-cards"></div>
+
+        <div class="assist-content">
+          <div class="dashboard-card">
+            <img
+              src="../public/images/cart-shopping.png"
+              alt="Marketplace de Alimentos"
+            />
+            <h2>Marketplace de Alimentos</h2>
+            <p>Venda direta do produtor para o consumidor</p>
+            <button class="desactive">Acessar</button>
+          </div>
+          <div class="dashboard-card">
+            <img src="../public/images/graph.png" alt="Cotação de Preços" />
+            <h2>Cotação de Preços</h2>
+            <p>Consulte valores atualizados do Ceasa</p>
+            <button class="desactive">Acessar</button>
+          </div>
+        </div>
+
+        <div class="assist-content">
+          <div class="dashboard-card">
+            <img
+              src="../public/images/person.png"
+              alt="Mão de Obra e Serviços"
+            />
+            <h2>Mão de Obra e Serviços</h2>
+            <p>Encontre ou ofereça vagas legalizadas ou serviços</p>
+            <button class="desactive">Acessar</button>
+          </div>
+          <div class="dashboard-card">
+            <img src="../public/images/book.png" alt="Troca de Conhecimentos" />
+            <h2>Troca de Conhecimentos</h2>
+            <p>Compartilhe experiências com outros produtores</p>
+            <button onclick="window.location.href='../pages/social-page.html'">
+              Acessar
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="video-youtube">
+        <p>
+          Clique para assistir ao vídeo:
+          <span
+            ><a href="https://youtu.be/EhvXxKaoYPk?si=hFtQcXBZkpwOnSE7"
+              >assistir agora</a
+            ></span
+          >
+        </p>
+      </div>
+    </main>
+    <script src="../interaction/route-controller/dashboard.js"></script>
+    <script src="../interaction/route-controller/logout.js"></script>
+  </body>
 </html>
